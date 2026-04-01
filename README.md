@@ -1,4 +1,3 @@
-# WhatsApp Chatbot Backend
 
 ## Features
 - REST API (/webhook)
@@ -20,6 +19,17 @@ Response:
   "reply": "Hello",
   "time": "timestamp"
 }
+
+## Screenshots
+
+### API Test
+![API Test](screenshots/chatbot.png)
+
+### Console Logs
+![Logs](screenshots/chatbot_error_handling.png)
+
+### Dashboard
+![Dashboard](screenshots/chatbot_hi.png)
 
 ## Run
 mvn spring-boot:run
